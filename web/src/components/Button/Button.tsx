@@ -1,10 +1,18 @@
 import React from 'react';
 
-function Button () {
+import './styles.css';
+
+interface IButtonProps {
+  type?: string;
+}
+
+function Button (props: IButtonProps) {
   return (
-    <button>
-      I'm a button!
-    </button>
+    <div className="button-component">
+      <button className={props.type || 'primary'}>
+        Nossos Serviços
+      </button>
+    </div>
   );
 }
 

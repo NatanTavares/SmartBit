@@ -1,12 +1,15 @@
 import React from 'react';
-import './App.css';
 
-import SectionHeader from './components/SectionHeader/SectionHeader';
+import Header from './components/sections/Header/Header';
+import Services from './components/sections/Services/Services';
+import Instructions from './components/sections/Instructions/Instructions';
 
 function App() {
   return (
     <main className="App">
-      <SectionHeader /> 
+      <Header /> 
+      <Services />
+      <Instructions />
     </main>
   );
 }
