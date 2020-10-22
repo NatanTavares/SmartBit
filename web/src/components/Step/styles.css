@@ -1,0 +1,35 @@
+.step {
+  width: 25vw;
+  display: flex;
+  background-color: yellow;
+  padding: 6px;
+}
+
+.step .text-zone h5 {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 3.4rem;
+  color: #1D2124;
+}
+
+.step .text-zone p {
+  margin-top: -30px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.step .circle {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
+
+.step.left {
+  text-align: left;
+}
+
+.step.right {
+  text-align: right;
+}

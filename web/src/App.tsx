@@ -7,7 +7,7 @@ import Instructions from './components/sections/Instructions/Instructions';
 function App() {
   return (
     <main className="App">
-      <Header /> 
+      <Header />
       <Services />
       <Instructions />
     </main>

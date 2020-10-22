@@ -2,6 +2,8 @@ import React from 'react';
 import HeaderSection from '../../HeaderSection/HeaderSection';
 import Step from '../../Step/Step';
 
+import rocketBackground from '../../../assets/rocket-background.png';
+
 function Instructions() {
   return (
     <section className="instructions">
@@ -36,7 +38,7 @@ function Instructions() {
         left
       />
 
-
+      <img src={rocketBackground} alt=""/>
     </section>
   );
 }

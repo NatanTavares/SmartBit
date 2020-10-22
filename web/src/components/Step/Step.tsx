@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './styles.css';
+
 interface IStepProps {
   title: string;
   description: string;
@@ -8,13 +10,16 @@ interface IStepProps {
 
 function Step(props: IStepProps) {
   return (
-    <div className="step">
-      <div className={`circle-${props.left ? 'left' : 'right'}`}>
+    <div className={`step ${props.left ? 'left' : 'right'}`}>
+      <div className='circle'>
         {/* SVG */}
         {/* Icon */}
+        <p>icon</p>
       </div>
-      <h5>{props.title}</h5>
-      <p>{props.description}</p>
+      <div className="text-zone">
+        <h5>{props.title}</h5>
+        <p>{props.description}</p>
+      </div>
     </div>
   );
 }
