@@ -40,7 +40,7 @@ function Footer() {
         </div>
       </footer>
       
-      <div>
+      <div className="copy">
         © 2020 SmartBit.
       </div>
     </>
