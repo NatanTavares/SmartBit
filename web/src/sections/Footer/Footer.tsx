@@ -1,6 +1,8 @@
 import React from 'react';
 
 import { MdKeyboardArrowRight } from 'react-icons/md';
+import { FiPhoneCall } from 'react-icons/fi';
+import { FaPaperPlane } from 'react-icons/fa';
 
 import Logo from '../../assets/Logo-menu.png';
 
@@ -35,8 +37,8 @@ function Footer() {
         <div className="contact-footer">
           <h3>Informações de contato</h3>
           <p>Utilize o telefone ou o email abaixo para entrar em contato conosco.</p>
-          <p>(71) 9****-****</p>
-          <p>hello@email.digital</p>
+          <p><FiPhoneCall color="#4673bc" />  (71) 91234-5678</p>
+          <p><FaPaperPlane color="#4673bc" />  hello@email.digital</p>
         </div>
       </footer>
       
