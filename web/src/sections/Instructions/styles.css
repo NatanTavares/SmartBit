@@ -1,0 +1,17 @@
+.content-zone {
+ display: flex;
+ justify-content: space-between;
+
+  margin-left: 8%;
+  margin-right: 2%;
+}
+
+.content-zone .card-zone {
+  display: flex;
+  flex-direction: column;
+}
+
+.rocketBackgroundImg {
+  display: flex;
+  align-items: center;
+}

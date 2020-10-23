@@ -1,8 +1,9 @@
 import React from 'react';
 
-import Header from './components/sections/Header/Header';
-import Services from './components/sections/Services/Services';
-import Instructions from './components/sections/Instructions/Instructions';
+import Header from './sections/Header/Header';
+import Services from './sections/Services/Services';
+import Instructions from './sections/Instructions/Instructions';
+import Contact from './sections/Contact/Contact';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Services />
       <Instructions />
+      <Contact />
     </main>
   );
 }

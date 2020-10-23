@@ -1,16 +1,16 @@
 import React from 'react';
+
 import { FaMapMarkedAlt, FaScroll, FaRegFileAlt } from 'react-icons/fa';
 
 import './styles.css';
 
-
-interface IStepProps {
+interface IStepInvertedProps {
   title: string;
   description: string;
   shape: string;
 }
 
-function Step(props: IStepProps) {
+function StepInverted(props: IStepInvertedProps) {
   function getIcons() {
     switch (props.title) {
       case "Planejamento da Ideia":
@@ -23,19 +23,20 @@ function Step(props: IStepProps) {
   }
 
   return (
-    <div className={`step`}>
+    <div className={`step inverted`}>
+      <div className="text-zone">
+        <h5>{props.title}</h5>
+        <p>{props.description}</p>
+      </div>
+
       <div className='circle'>
         <img src={props.shape} alt="" width={160} />
         <div className="icon">
           {getIcons()}
         </div>
       </div>
-      <div className="text-zone">
-        <h5>{props.title}</h5>
-        <p>{props.description}</p>
-      </div>
     </div>
   );
 }
 
-export default Step;
+export default StepInverted;

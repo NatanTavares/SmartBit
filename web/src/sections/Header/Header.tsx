@@ -1,11 +1,11 @@
 import React from 'react';
-import Button from '../../Button/Button';
+import Button from '../../components/Button/Button';
 
 import './styles.css';
 
-import Logo from '../../../assets/Logo.png';
-import Human from '../../../assets/human-background.png';
-import Shape from '../../../assets/shape-1.png';
+import Logo from '../../assets/Logo.png';
+import Human from '../../assets/human-background.png';
+import Shape from '../../assets/shape-1.png';
 
 function Header() {
   return (

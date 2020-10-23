@@ -1,13 +1,13 @@
 import React from 'react';
-import HeaderSection from '../../HeaderSection/HeaderSection';
-import Card from '../../Card/Card';
+import HeaderSection from '../../components/HeaderSection/HeaderSection';
+import Card from '../../components/Card/Card';
 
-import Shape1 from '../../../assets/icons/shape-1.svg';
-import Shape2 from '../../../assets/icons/shape-2.svg';
-import Shape3 from '../../../assets/icons/shape-3.svg';
-import Shape4 from '../../../assets/icons/shape-4.svg';
-import Shape5 from '../../../assets/icons/shape-5.svg';
-import Shape7 from '../../../assets/icons/shape-7.svg';
+import Shape1 from '../../assets/icons/shape-1.svg';
+import Shape2 from '../../assets/icons/shape-2.svg';
+import Shape3 from '../../assets/icons/shape-3.svg';
+import Shape4 from '../../assets/icons/shape-4.svg';
+import Shape5 from '../../assets/icons/shape-5.svg';
+import Shape7 from '../../assets/icons/shape-7.svg';
 
 import './styles.css';
 

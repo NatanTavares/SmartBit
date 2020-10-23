@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import { IconType } from 'react-icons';
+import React from 'react';
 
 import { FaCloud, FaDesktop, FaLayerGroup, FaMobileAlt, FaPen, FaSearch } from 'react-icons/fa';
 
