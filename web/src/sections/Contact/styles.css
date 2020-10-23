@@ -49,7 +49,7 @@
 }
 
 .contact .form-position form .bottom-form textarea {
-  max-width: 515px;
+  width: 515px;
   box-sizing: border-box;
   padding: 8px 0 0 8px;
   border: 1px solid #C6C6C6;

@@ -1,0 +1,26 @@
+footer {
+  background-color: #f6f7fA;
+  display: flex;
+  justify-content: space-around;
+  padding: 10vh 0;
+}
+
+.logo-on-footer, .services-footer, .menu-footer, .contact-footer {
+  width: 19vw;
+}
+
+.logo-on-footer h3, .services-footer h3, .menu-footer h3, .contact-footer h3 {
+  color: #1D2124;
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.logo-on-footer p, .services-footer p, .menu-footer p, .contact-footer p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+.logo-on-footer {
+  margin-top: 1.5rem;
+}

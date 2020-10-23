@@ -4,6 +4,7 @@ import Header from './sections/Header/Header';
 import Services from './sections/Services/Services';
 import Instructions from './sections/Instructions/Instructions';
 import Contact from './sections/Contact/Contact';
+import Footer from './sections/Footer/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Services />
       <Instructions />
       <Contact />
+      <Footer />
     </main>
   );
 }
