@@ -2,6 +2,9 @@
   display: flex;
   justify-content: space-between;
   margin: 24vh 6vw;
+
+  position: relative;
+  overflow: hidden;
 }
 
 .contact .form-position {
@@ -71,4 +74,8 @@
 .copy {
   text-align: center;
   padding: 5vh 0;
+}
+
+.contact .background-image {
+  filter: opacity(.8);
 }

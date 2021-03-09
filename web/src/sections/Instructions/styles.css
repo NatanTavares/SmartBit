@@ -2,6 +2,9 @@
  display: flex;
  justify-content: space-between;
 
+  position: relative;
+  overflow: hidden;
+
   margin-left: 8%;
   margin-right: 2%;
 }
@@ -14,4 +17,6 @@
 .rocketBackgroundImg {
   display: flex;
   align-items: center;
+
+  filter: opacity(.9);
 }

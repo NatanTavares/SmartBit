@@ -37,13 +37,13 @@ function Footer() {
         <div className="contact-footer">
           <h3>Informações de contato</h3>
           <p>Utilize o telefone ou o email abaixo para entrar em contato conosco.</p>
-          <p><FiPhoneCall color="#4673bc" />  (71) 91234-5678</p>
-          <p><FaPaperPlane color="#4673bc" />  hello@email.digital</p>
+          <p><FiPhoneCall color="#4673bc" />  (71) 93199-0778</p>
+          <p><FaPaperPlane color="#4673bc" />  nattantavares@gmail.com</p>
         </div>
       </footer>
       
       <div className="copy">
-        © 2020 SmartBit.
+        © 2021 SmartBit.
       </div>
     </>
   );

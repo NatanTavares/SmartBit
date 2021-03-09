@@ -33,8 +33,8 @@ function Header() {
           </nav>
       </header>
 
-      <img src={Shape} id="shape-1" alt='' />
-      <img src={Human} id="human-background" alt='' />
+      <img src={Shape} id="shape-1" />
+      <img src={Human} id="human-background" />
 
       <section className="description-section">
         <div className="content-description">
